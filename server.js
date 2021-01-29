@@ -13,7 +13,7 @@ io.on('connection', (socket) => {
         const participants = new Circular();
         payload.participants.forEach(person => {
             participants.addPlayer(person)
-            console.log(participants)
+            console.log(person)
         }) // need to manage decks of cards
     })
 
